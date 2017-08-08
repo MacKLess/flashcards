@@ -16,6 +16,7 @@ button {
     background-color: none !important;
 }
 
+
 .card-img-top {
   padding-top: 20px;
   height: 150px;
@@ -59,4 +60,26 @@ button {
 
 #card-modified.flipped {
     transform: rotateY( 180deg );
+}
+
+@media  (min-width : 577px) and (max-width : 736px) {
+  .col-sm-6 {
+    margin-bottom: 30em !important;
+  }
+
+  .row-modified {
+    margin-top: 0;
+  }
+}
+
+@media (max-width : 667px){
+  .col-xs-12 {
+    margin-bottom: 30em !important;
+  }
+  .container div:nth-child(2),
+  .container div:nth-child(3),
+  .container div:nth-child(4),
+  .container div:nth-child(5){
+     margin-top: -1em;
+  }
 }
